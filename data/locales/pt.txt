@@ -1,4 +1,4 @@
-﻿// ***************************************************************************
+// ***************************************************************************
 // *
 // * Copyright (C) 2011 International Business Machines
 // * Corporation and others.  All Rights Reserved.
@@ -62,9 +62,9 @@ pt{
             }
             availableFormats{
                 EEEd{"EEE, d"}
-                HHmm{"HH'h'mm"}
-                HHmmss{"HH'h'mm'min'ss's'"}
-                Hm{"HH'h'mm"}
+                HHmm{"HH:mm"}
+                HHmmss{"HH:mm:ss"}
+                Hm{"HH:mm"}
                 M{"L"}
                 MEd{"EEE, dd/MM"}
                 MMM{"LLL"}
@@ -73,7 +73,7 @@ pt{
                 MMdd{"dd/MM"}
                 Md{"d/M"}
                 d{"d"}
-                ms{"mm'min'ss's'"}
+                ms{"mm:ss"}
                 y{"y G"}
                 yM{"MM/y G"}
                 yMEd{"EEE, dd/MM/yyyy G"}
@@ -294,8 +294,8 @@ pt{
         }
         gregorian{
             DateTimePatterns{
-                "HH'h'mm'min'ss's' zzzz",
-                "HH'h'mm'min'ss's' z",
+                "HH:mm:ss zzzz",
+                "HH:mm:ss z",
                 "HH:mm:ss",
                 "HH:mm",
                 "EEEE, d 'de' MMMM 'de' y",
@@ -310,9 +310,9 @@ pt{
             }
             availableFormats{
                 EEEd{"EEE, d"}
-                HHmm{"HH'h'mm"}
-                HHmmss{"HH'h'mm'min'ss's'"}
-                Hm{"HH'h'mm"}
+                HHmm{"HH:mm"}
+                HHmmss{"HH:mm:ss"}
+                Hm{"HH:mm"}
                 M{"L"}
                 MEd{"EEE, dd/MM"}
                 MMM{"LLL"}
@@ -321,7 +321,7 @@ pt{
                 MMdd{"dd/MM"}
                 Md{"d/M"}
                 d{"d"}
-                ms{"mm'min'ss's'"}
+                ms{"mm:ss"}
                 y{"y"}
                 yM{"MM/yyyy"}
                 yMEd{"EEE, dd/MM/yyyy"}
@@ -489,14 +489,14 @@ pt{
                     h{"h'h' - h'h' a"}
                 }
                 hm{
-                    a{"h'h'mm a - h'h'mm a"}
-                    h{"h'h'mm - h'h'mm a"}
-                    m{"h'h'mm - h'h'mm a"}
+                    a{"h:mm a - h:mm a"}
+                    h{"h:mm - h:mm a"}
+                    m{"h:mm - h:mm a"}
                 }
                 hmv{
-                    a{"h'h'mm a - h'h'mm a v"}
-                    h{"h'h'mm - h'h'mm a v"}
-                    m{"h'h'mm - h'h'mm a v"}
+                    a{"h:mm a - h:mm a v"}
+                    h{"h:mm - h:mm a v"}
+                    m{"h:mm - h:mm a v"}
                 }
                 hv{
                     a{"h a - h a v"}
@@ -755,8 +755,8 @@ pt{
         }
         islamic{
             DateTimePatterns{
-                "HH'h'mm'min'ss's' zzzz",
-                "HH'h'mm'min'ss's' z",
+                "HH:mm:ss zzzz",
+                "HH:mm:ss z",
                 "HH:mm:ss",
                 "HH:mm",
                 "EEEE, d 'de' MMMM 'de' y G",
@@ -772,9 +772,9 @@ pt{
             availableFormats{
                 EEEd{"EEE, d"}
                 H{"HH"}
-                HHmm{"HH'h'mm"}
-                HHmmss{"HH'h'mm'min'ss's'"}
-                Hm{"HH'h'mm"}
+                HHmm{"HH:mm"}
+                HHmmss{"HH:mm:ss"}
+                Hm{"HH:mm"}
                 Hms{"HH:mm:ss"}
                 M{"L"}
                 MEd{"EEE, dd/MM"}
@@ -787,7 +787,7 @@ pt{
                 h{"h a"}
                 hm{"h:mm a"}
                 hms{"h:mm:ss a"}
-                ms{"mm'min'ss's'"}
+                ms{"mm:ss"}
                 y{"y"}
                 yM{"MM/yyyy"}
                 yMEd{"EEE, dd/MM/yyyy"}
@@ -911,8 +911,8 @@ pt{
         }
         japanese{
             DateTimePatterns{
-                "HH'h'mm'min'ss's' zzzz",
-                "HH'h'mm'min'ss's' z",
+                "HH:mm:ss zzzz",
+                "HH:mm:ss z",
                 "HH:mm:ss",
                 "HH:mm",
                 "EEEE, d MMMM y G",
@@ -928,9 +928,9 @@ pt{
             availableFormats{
                 EEEd{"EEE, d"}
                 Gy{"y G"}
-                HHmm{"HH'h'mm"}
-                HHmmss{"HH'h'mm'min'ss's'"}
-                Hm{"HH'h'mm"}
+                HHmm{"HH:mm"}
+                HHmmss{"HH:mm:ss"}
+                Hm{"HH:mm"}
                 M{"L"}
                 MEd{"EEE, dd/MM"}
                 MMM{"LLL"}
@@ -939,7 +939,7 @@ pt{
                 MMdd{"dd/MM"}
                 Md{"d/M"}
                 d{"d"}
-                ms{"mm'min'ss's'"}
+                ms{"mm:ss"}
                 y{"y G"}
                 yyMM{"MM/yy G"}
                 yyMMM{"MMM 'de' yy G"}
@@ -1024,8 +1024,8 @@ pt{
         }
         roc{
             DateTimePatterns{
-                "HH'h'mm'min'ss's' zzzz",
-                "HH'h'mm'min'ss's' z",
+                "HH:mm:ss zzzz",
+                "HH:mm:ss z",
                 "HH:mm:ss",
                 "HH:mm",
                 "EEEE, d 'de' MMMM 'de' y G",
@@ -1041,9 +1041,9 @@ pt{
             availableFormats{
                 EEEd{"EEE, d"}
                 Gy{"y G"}
-                HHmm{"HH'h'mm"}
-                HHmmss{"HH'h'mm'min'ss's'"}
-                Hm{"HH'h'mm"}
+                HHmm{"HH:mm"}
+                HHmmss{"HH:mm:ss"}
+                Hm{"HH:mm"}
                 M{"L"}
                 MEd{"EEE, dd/MM"}
                 MMM{"LLL"}
@@ -1052,7 +1052,7 @@ pt{
                 MMdd{"dd/MM"}
                 Md{"d/M"}
                 d{"d"}
-                ms{"mm'min'ss's'"}
+                ms{"mm:ss"}
                 y{"y G"}
                 yyMM{"MM/yy G"}
                 yyMMM{"MMM 'de' yy G"}
